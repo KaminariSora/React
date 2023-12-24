@@ -1,16 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Transaction from "./Components/Transaction";
+import "./Components/App.css"
+
+const Title =() => <h1>โปรแกรมบัญชี รายรับ-รายจ่าย</h1>
 
 function App() {
+  const design = {color:"#fff", textAlign:"center", fontSize:"1.5rem"}
   return (
-    <section>
-      <h1>โปรแกรมบัญชี รายรับ-รายจ่าย</h1>
-      <p>บันทึกข้อมูลบัญชีในแต่ละวัน</p>
-      <ul>
-        <li>ค่าเดินทาง<span>200</span></li>
-        <li>ค่าอาหาร<span>200</span></li>
-        <li>ต่าที่พัก<span>500</span></li>
-      </ul>
+    <section className="contianer" style={design}>
+      <Title/>
+      <Transaction/>
     </section>
   );
 }
