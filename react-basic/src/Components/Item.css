@@ -1,4 +1,7 @@
-.item {
-    color:blue;
-    justify-content: start;
+.expense {
+    border-right: 5px solid red;
+}
+
+.income {
+    border-right: 5px solid #2ccc71;
 }
