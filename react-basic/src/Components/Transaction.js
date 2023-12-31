@@ -1,6 +1,6 @@
-import DataContext from "../Data/dataContext"
 import Item from "./Item"
 import "./Transaction.css"
+import './ReportComponent.css'
 
 const Transaction =(props)=> {
     const {items} = props
@@ -13,9 +13,6 @@ const Transaction =(props)=> {
                 )
             })}
         </ul>
-        <DataContext.Consumer>
-            {value=><p>{value}</p>}
-        </DataContext.Consumer>
         </div>
     );
 }
