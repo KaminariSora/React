@@ -30,7 +30,7 @@ function App() {
       <div className="head">
         <h1>BMI Project</h1>
       </div>
-      <label>Weight : {weight} kg</label>
+      <label>Weight : <input type='number' placeholder='0' onChange={onChangeWeight}></input> kg</label>
       <input
         onChange={onChangeWeight}
         type="range"
