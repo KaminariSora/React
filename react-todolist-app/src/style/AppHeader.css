@@ -1,0 +1,23 @@
+.containerStyle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.buttonStyle {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.selectStyle {
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+}
